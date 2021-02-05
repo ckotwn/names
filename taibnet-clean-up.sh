@@ -5,6 +5,7 @@
 
 USER=$1
 
+# Dump redundant tables.
 mysqldump -u $USER -p taibnet \
   00e \
   experts_copy \
@@ -34,8 +35,10 @@ mysqldump -u $USER -p taibnet \
   view_getchinesen_copy \
 > copies.sql
 
-# Run taibnet-clean-up.sql
+# Run taibnet-clean-up.sql.
+mysql -u $USER -p taibnet < taibnet-clean-up.sql
 
 # Import the latest dump from the official site.
-mysql -u cko -p taibnet < taibnet-export.sql
-mysqlimport --ignore-lines=1 --fields-terminated-by='\t' --local -u cko -p taibnet taibnet_export.csv
+mysql -u $USER -p taibnet < taibnet-export.sql
+mysqlimport --ignore-lines=1 --fields-terminated-by='\t' --local -u $USER -p taibnet taibnet_export.csv
+

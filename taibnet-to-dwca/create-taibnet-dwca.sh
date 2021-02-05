@@ -8,7 +8,7 @@
 
 CURRENT_DIR=$(pwd)
 HEAD="dwca-taibnet-"
-PACKAGES=("all" "iucn" "coa")
+PACKAGES=("all" "iucn" "coa" "endemic")
 
 mysql --defaults-extra-file=my-extra.cnf < taibnet-clean-line-breaks.sql
 

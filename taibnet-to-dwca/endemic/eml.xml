@@ -1,0 +1,155 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="e1c9e885-9d8c-45b5-9f7d-b710ac2b303b/v8.1" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <alternateIdentifier>e1c9e885-9d8c-45b5-9f7d-b710ac2b303b</alternateIdentifier>
+  <alternateIdentifier>https://ipt.taibif.tw/resource?r=taibnet_endemic</alternateIdentifier>
+  <title xml:lang="eng">Endemic species in Taiwan</title>
+      <creator>
+    <individualName>
+        <givenName>Sz-Yi</givenName>
+      <surName>Tsai</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Database Administrator</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <phone>+886 2 27872220 28</phone>
+    <electronicMailAddress>auszyi@gmail.com</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Sz-Yi</givenName>
+      <surName>Tsai</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Database Administrator</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <phone>+886 2 27872220 28</phone>
+    <electronicMailAddress>auszyi@gmail.com</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </metadataProvider>
+      <associatedParty>
+    <individualName>
+        <givenName>Jack</givenName>
+      <surName>Lin</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Software Engineer</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <phone>+886 2 27899161</phone>
+    <electronicMailAddress>jacklin@gate.sinica.edu.tw</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+    <role>programmer</role>
+      </associatedParty>
+  <pubDate>
+      2020-11-19
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>Taiwan is a continental island, located between the southeastern coastline of mainland China and Japan&apos;s Ryukyu Islands. With diverse terrain and wide range of vertical elevations, Taiwan has tropical, subtropical, temperate, and frigid climate zones. These unique geographical conditions, coupled with the effect of habitat isolation, gave Taiwan its high biodiversity.
+
+The endemic species of Taiwan denotes the native plants and animals of Taiwan and its offshore islands such as Penghu Archipelago, Orchid Island, Green Island, etc. Even though the areas are small, the Checklist of Taiwan (TaiCoL, formerly TaiBNET) lists around 60,000 valid species scientific names. Among them, 9,000 are endemic species (including endemic subspecies and variety), showing the abundance of Taiwan’s endemic Species. TaiCoL also provides information on these species, such as their scientific names (including authors and years), common names, and synonyms. Through Taiwan Biodiversity Information Facility (TaiBIF), the information on these endemic species are published and then shared and exchanged with other GBIF participants. Users can use keywords to link to other websites with relevant information. All these efforts will result in the circulation and utilization of information in the areas of research, education and conservation.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Checklist</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Inventoryregional</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://taibnet.sinica.edu.tw/eng/taibnet_endemic.php?fr=y</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Taiwan island and adjacent islets.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>116.21</westBoundingCoordinate>
+          <eastBoundingCoordinate>124.61</eastBoundingCoordinate>
+          <northBoundingCoordinate>26.93</northBoundingCoordinate>
+          <southBoundingCoordinate>20.44</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Kwang-Tsao</givenName>
+      <surName>Shao</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Research Fellow</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <phone>+886 932152991</phone>
+    <electronicMailAddress>zoskt@gate.sinica.edu.tw</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </contact>
+      <contact>
+    <individualName>
+        <givenName>Kuo-Fang</givenName>
+      <surName>Chung</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Associate Research Fellow</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <electronicMailAddress>bochung@sinica.edu.tw </electronicMailAddress>
+    <onlineUrl>http://www.biodiv.tw/tw/人員/研究人員/鍾國芳</onlineUrl>
+      </contact>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2011-08-11T03:15:33.588+08:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+          <resourceLogoUrl>http://taibif.tw/images/TaiBIF_small.jpg</resourceLogoUrl>
+          <dc:replaces>e1c9e885-9d8c-45b5-9f7d-b710ac2b303b/v8.1.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

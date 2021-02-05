@@ -1,5 +1,5 @@
 -- COA common name
-SELECT c.name_code, c.common_name AS vernacularName, "zh" AS language
+SELECT c.name_code, c.common_name AS vernacularName, "zh" AS language, "TW" AS countryCode
 FROM common_names c
          LEFT JOIN scientific_names s USING (name_code)
          LEFT JOIN details d USING (name_code)
