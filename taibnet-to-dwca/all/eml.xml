@@ -55,7 +55,7 @@
       <phone>+886 932152991</phone>
       <electronicMailAddress>zoskt@gate.sinica.edu.tw</electronicMailAddress>
       <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
-      <role>principal investigator</role>
+      <role>principalInvestigator</role>
     </associatedParty>
     <associatedParty>
       <individualName>
@@ -73,7 +73,7 @@
       </address>
       <electronicMailAddress>bochung@sinica.edu.tw</electronicMailAddress>
       <onlineUrl>http://www.biodiv.tw/tw/&#x4EBA;&#x54E1;/&#x7814;&#x7A76;&#x4EBA;&#x54E1;/&#x937E;&#x570B;&#x82B3;</onlineUrl>
-      <role>principal investigator</role>
+      <role>principalInvestigator</role>
     </associatedParty>
     <associatedParty>
       <individualName>
@@ -95,17 +95,17 @@
     </associatedParty>
     <associatedParty>
       <individualName>
-          <givenName>Kun-Chi</givenName>
+        <givenName>Kun-Chi</givenName>
         <surName>Lai</surName>
       </individualName>
       <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
       <positionName>Research Assistant</positionName>
       <address>
-          <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
-          <city>Taipei</city>
-          <administrativeArea>TAIWAN</administrativeArea>
-          <postalCode>115</postalCode>
-          <country>TW</country>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
       </address>
       <phone>+886 2 27839161</phone>
       <electronicMailAddress>east0122@gate.sinica.edu.tw</electronicMailAddress>
@@ -181,7 +181,7 @@ ACKNOWLEDGEMENT: The Department of Information Technology Services (former Compu
       <description>
         <para/>
       </description>
-      <maintenanceUpdateFrequency>unknown</maintenanceUpdateFrequency>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
     </maintenance>
     <contact>
       <individualName>
