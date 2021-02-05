@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd" packageId="https://ipt.taibif.tw/resource?id=dwca-taibnet-all/v1.6" system="http://gbif.org" scope="system" xml:lang="eng">
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd" packageId="https://ipt.taibif.tw/resource?id=dwca-taibnet-all/v1.7" system="http://gbif.org" scope="system" xml:lang="eng">
   <dataset>
     <alternateIdentifier>1ec61203-14fa-4fbd-8ee5-a4a80257b45a</alternateIdentifier>
     <title xml:lang="eng">The National Checklist of Taiwan</title>
@@ -130,6 +130,34 @@
       <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
       <role>programmer</role>
     </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Mai</surName>
+      </individualName>
+      <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+      <positionName>Software Developer</positionName>
+      <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <country>TW</country>
+      </address>
+      <role>processor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Szu-Hsien</givenName>
+        <surName>Lee</surName>
+      </individualName>
+      <organizationName>Biodiversity Research Center</organizationName>
+      <positionName>Developer</positionName>
+      <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <country>TW</country>
+      </address>
+      <role>processor</role>
+    </associatedParty>
     <pubDate>
       2021-02-05
   </pubDate>
@@ -247,7 +275,7 @@ ACKNOWLEDGEMENT: The Department of Information Technology Services (former Compu
         <hierarchyLevel>dataset</hierarchyLevel>
         <citation>Shao KT, Chung KF (2011): The National Checklist of Taiwan. v1.7. Taiwan Biodiversity Information Facility (TaiBIF). Dataset/Checklist. https://ipt.taibif.tw/resource?r=dwca-taibnet-all&amp;amp;v=1.7</citation>
         <resourceLogoUrl>http://taibif.tw/images/TaiBIF_small.jpg</resourceLogoUrl>
-        <dc:replaces>https://ipt.taibif.tw/resource?id=dwca-taibnet-all/v1.6.xml</dc:replaces>
+        <dc:replaces>https://ipt.taibif.tw/resource?id=dwca-taibnet-all/v1.7.xml</dc:replaces>
       </gbif>
     </metadata>
   </additionalMetadata>
