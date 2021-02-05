@@ -2,20 +2,19 @@
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
-         packageId="1ec61203-14fa-4fbd-8ee5-a4a80257b45a/v1.6" system="http://gbif.org" scope="system"
+         packageId="https://ipt.taibif.tw/resource?id=dwca-taibnet-all/v1.6" system="http://gbif.org" scope="system"
          xml:lang="eng">
 
 <dataset>
   <alternateIdentifier>1ec61203-14fa-4fbd-8ee5-a4a80257b45a</alternateIdentifier>
-  <alternateIdentifier>https://ipt.taibif.tw/resource?r=taibnet_com_all</alternateIdentifier>
   <title xml:lang="eng">The National Checklist of Taiwan</title>
       <creator>
     <individualName>
-        <givenName>Sz-Yi</givenName>
-      <surName>Tsai</surName>
+        <givenName>Kwang-Tsao</givenName>
+      <surName>Shao</surName>
     </individualName>
     <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
-    <positionName>Database Administrator</positionName>
+    <positionName>Research Fellow</positionName>
     <address>
         <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
         <city>Taipei</city>
@@ -23,28 +22,62 @@
         <postalCode>115</postalCode>
         <country>TW</country>
     </address>
-    <phone>+886 2 27872220 28</phone>
-    <electronicMailAddress>auszyi@gmail.com</electronicMailAddress>
-    <onlineUrl>http://taicol.tw</onlineUrl>
+    <phone>+886 932152991</phone>
+    <electronicMailAddress>zoskt@gate.sinica.edu.tw</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Kuo-Fang</givenName>
+      <surName>Chung</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Associate Research Fellow</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <electronicMailAddress>bochung@sinica.edu.tw</electronicMailAddress>
+    <onlineUrl>http://www.biodiv.tw/tw/人員/研究人員/鍾國芳</onlineUrl>
       </creator>
       <metadataProvider>
     <individualName>
-        <givenName>Sz-Yi</givenName>
-      <surName>Tsai</surName>
+        <givenName>Chihjen</givenName>
+      <surName>Ko</surName>
     </individualName>
-    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
-    <positionName>Database Administrator</positionName>
     <address>
-        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
-        <city>Taipei</city>
+        <deliveryPoint>176 Sec 2, Chunghwa Rd</deliveryPoint>
+        <city>Taitung City</city>
         <administrativeArea>TAIWAN</administrativeArea>
-        <postalCode>115</postalCode>
+        <postalCode>950</postalCode>
         <country>TW</country>
     </address>
-    <phone>+886 2 27872220 28</phone>
-    <electronicMailAddress>zoskt@gate.sinica.edu.tw</electronicMailAddress>
-    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+    <phone>+886 905527800</phone>
+    <electronicMailAddress>ckotwn@gmail.com</electronicMailAddress>
+    <onlineUrl>https://orcid.org/0000-0001-5912-1761</onlineUrl>
+          <userId directory="http://orcid.org/">0000-0001-5912-1761</userId>
       </metadataProvider>
+      <associatedParty>
+    <individualName>
+        <givenName>Chihjen</givenName>
+      <surName>Ko</surName>
+    </individualName>
+    <address>
+        <deliveryPoint>176 Sec 2, Chunghwa Rd</deliveryPoint>
+        <city>Taitung City</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>950</postalCode>
+        <country>TW</country>
+    </address>
+    <phone>+886 905527800</phone>
+    <electronicMailAddress>ckotwn@gmail.com</electronicMailAddress>
+    <onlineUrl>https://orcid.org/0000-0001-5912-1761</onlineUrl>
+          <userId directory="http://orcid.org/">0000-0001-5912-1761</userId>
+    <role>processor</role>
+      </associatedParty>
       <associatedParty>
     <individualName>
         <givenName>Jack</givenName>
@@ -64,17 +97,25 @@
     <role>programmer</role>
       </associatedParty>
   <pubDate>
-      2020-11-19
+      2021-02-05
   </pubDate>
   <language>eng</language>
   <abstract>
-    <para>The catalogue of Taiwanese species is call &quot;TaiCoL&quot; (formerly TaiBNET) and the national node of GBIF (Global Biodiversity Information Facility) in Taiwan is called &quot;TaiBIF&quot;. Currently, the websites have been established at Academia Sinica (http://taibnet.sinica.edu.tw and https://portal.taibif.tw). Both of the Biodiversity Research Center and the Computing Center of Academia Sinica are in charge of the maintenance and the updating biodiversity related information and data.
+    <para>The National Checklist of Taiwan is the authoritative checklist to Taiwanese species and biodiversity. In the current version, 60868 valid names with 97258 synonyms, and Chinese vernaculars are included in the data package.
 
-Through the node, the background of participating GBIF, related documents, news, upcoming conferences, name list of Taiwanese taxonomists, catalogue of life in Taiwan, specimen database, biodiversity related organization, team research projects, independent biological databases, natural heritage, and local publications etc. can be accessed. Among them, &quot;Name list of Taiwanese taxonomists&quot; and &quot;Catalogue of Life of Taiwan&quot; are one promoting project sponsored by government. So far, 274 local taxonomists have included their titles, telephones, e-mail addresses, and the taxa that they expertise. In the future, we hope to include all of the ecologists or the applied scientists in agriculture, forestry, fishery, and animal husbandry in the name list.
+Together with this checklist dataset publication, &quot;COA Wildlife Conservation List&quot;, &quot;Taiwanese IUCN species list&quot; and &quot;Endemic species in Taiwan&quot; are checklist datasets derived for thematic and targeted use, also published and hosted by TaiBIF.
 
-The first phase of Catalogue of Life in Taiwan will contain the following items of animals (including insects), plants, and fungi: species names, authors and year, suggested Chinese names, endemic in Taiwan or not, their classification hierarchy, the most authorized citation proving that particular species has occurred in Taiwan. Users can get the name list of one group of organisms through keywords search, species name searching, or image searching etc. Further information of each species can be obtained through the hyperlink to more than 18 well-known global databases or networks, such as Species2000 and ITIS etc. Right now, more than 30,000 species have been compiled, and we hope to collect more than 60,000 species by July 2004. Species checklist of the microorganisms will be included next year. We hope to get more funding and collaborators in the next phase to collect specimen or ecological photos (endemic species first), description (morphology, ecology and biology), geographical distribution, synonyms, literatures, as well as deposited specimen data for each species.
+Since 2001, more than 800 experts have contributed to this dataset&apos;s curation, representing highly diverse Taiwanese biodiversity, given the island&apos;s unique geographical location and climate. Users can find the list of involved experts at http://bit.ly/taicol-experts. During 2004-2015, the National Checklist is compared with the global Catalogue of Life Annual Checklist where new names might be introduced, as a mechanism to ensure the capture of relevant species names about Taiwan.
 
-Through this node, the most authorized information of high biodiversity and endemism of Taiwan can be exchanged and shared with other GBIF participants. This mission is also requested by both of the Convention on Biological Diversity and GBIF to each member because in such a way, education, research, and conservation of biodiversity in the world could be promoted effectively.</para>
+The Catalogue of Life in Taiwan (TaiCoL, formerly TaiBNET, https://taicol.tw) project actively maintains the updates by tracking new publications and coordinating experts&apos; contribution. The website is hosted by Taiwan Biodiversity Information Facility, TaiBIF(https://portal.taibif.tw) as the national node of GBIF.
+
+The TaiCoL (then TaiBNET) project&apos;s initial scope was to include species names, authors and year, suggested Chinese vernaculars, endemicity, classification hierarchy, and the most authoritative original literature for all known species of animals (including insects), plants and fungi. Names of bacteria were first contributed in 2004 by Bioresource Collection and Research Center, Food Industry Research and Development Institute (BCRC). In 2008, Dr Cornelia Büchen-Osmond introduced virus names from ICTVdb, the database of the International Committee on Taxonomy of Viruses (ICTV). Throughout the National Digital Archive Programme and Taiwan E-Learning and Digital Archive Programme (2004-2012), the animal and plant thematic groups, led by Dr Kwang-Tsao Shao and then Dr Ching-I Peng, respectively, frequently contributed to the update. Names for Kingdom Plantae primarily followed the Flora of Taiwan 2nd Edition and adopted APG4 in late 2017 under Dr Kou-Fang Chung.
+
+Users can retrieve a name list of organisms on the TaiCoL website provided search criteria such as keywords, species names. Some search brings up relevant images as well.
+
+Biodiversity Research Center of Academia Sinica, hosting the GBIF node, is responsible for maintaining and updating biodiversity-related information and data. Through the node, people can access the background of GBIF participation, related documents, news, upcoming conferences, name list of Taiwanese taxonomists, catalogue of life in Taiwan, specimen database, biodiversity organizations, team research projects, independent biological databases, natural heritage, and local publications, etc. These respond to the mission of Convention on Biological Diversity, CBD, and GBIF, to effectively promote the conservation of biodiversity through education and research.
+
+ACKNOWLEDGEMENT: The Department of Information Technology Services (former Computing Center) of Academia Sinica technically hosted the system during the early days of TaiCoL project.</para>
   </abstract>
       <keywordSet>
             <keyword>Checklist</keyword>
@@ -84,7 +125,7 @@ Through this node, the most authorized information of high biodiversity and ende
         <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
       </keywordSet>
   <intellectualRights>
-    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
   </intellectualRights>
   <distribution scope="document">
     <online>
@@ -111,11 +152,11 @@ Through this node, the most authorized information of high biodiversity and ende
 
       <contact>
     <individualName>
-        <givenName>Kwang-Tsao</givenName>
-      <surName>Shao</surName>
+        <givenName>Sz-Yi</givenName>
+      <surName>Tsai</surName>
     </individualName>
     <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
-    <positionName>Research Fellow</positionName>
+    <positionName>Database Administrator</positionName>
     <address>
         <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
         <city>Taipei</city>
@@ -123,36 +164,57 @@ Through this node, the most authorized information of high biodiversity and ende
         <postalCode>115</postalCode>
         <country>TW</country>
     </address>
-    <phone>+886 932152991</phone>
-    <electronicMailAddress>zoskt@gate.sinica.edu.tw</electronicMailAddress>
-    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+    <phone>+886 2 27872220 28</phone>
+    <electronicMailAddress>auszyi@gmail.com</electronicMailAddress>
+    <onlineUrl>http://taicol.tw</onlineUrl>
       </contact>
-      <contact>
-    <individualName>
-        <givenName>Kuo-Fang</givenName>
-      <surName>Chung</surName>
-    </individualName>
-    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
-    <positionName>Associate Research Fellow</positionName>
-    <address>
-        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
-        <city>Taipei</city>
-        <administrativeArea>TAIWAN</administrativeArea>
-        <postalCode>115</postalCode>
-        <country>TW</country>
-    </address>
-    <electronicMailAddress>bochung@sinica.edu.tw</electronicMailAddress>
-    <onlineUrl>http://www.biodiv.tw/tw/人員/研究人員/鍾國芳</onlineUrl>
-      </contact>
+  <project >
+    <title>Operation and Promotion &quot;Catalogue of Life in Taiwan&quot; Database - TaiCoL</title>
+      <personnel>
+        <individualName>
+            <givenName>Sz-Yi</givenName>
+          <surName>Tsai</surName>
+        </individualName>
+        <role>custodianSteward</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Yi-Hsiuan</givenName>
+          <surName>Lyh</surName>
+        </individualName>
+        <role>custodianSteward</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Hsian-Ying</givenName>
+          <surName>Tsai</surName>
+        </individualName>
+        <role>custodianSteward</role>
+      </personnel>
+      <personnel>
+        <individualName>
+            <givenName>Han</givenName>
+          <surName>Lee</surName>
+        </individualName>
+        <role>custodianSteward</role>
+      </personnel>
+      <abstract>
+        <para>Names information at https://taicol.tw has been contributed by more than 870 experts since 2001. The project funds the data curation personnel and activities.</para>
+      </abstract>
+      <funding>
+        <para>1. Council of Agriculture (2001-)
+2. Ministry of Science and Technology (former National Science Council) (2004-2007)</para>
+      </funding>
+  </project>
 </dataset>
   <additionalMetadata>
     <metadata>
       <gbif>
           <dateStamp>2011-08-11T02:47:01.769+08:00</dateStamp>
           <hierarchyLevel>dataset</hierarchyLevel>
-            <citation>Tsai S (2011): The National Checklist of Taiwan. v1.6. Taiwan Biodiversity Information Facility (TaiBIF). Dataset/Checklist. https://ipt.taibif.tw/resource?r=taibnet_com_all&amp;v=1.6</citation>
+            <citation>Shao KT, Chung KF (2011): The National Checklist of Taiwan. v1.7. Taiwan Biodiversity Information Facility (TaiBIF). Dataset/Checklist. https://ipt.taibif.tw/resource?r=dwca-taibnet-all&amp;amp;v=1.7</citation>
           <resourceLogoUrl>http://taibif.tw/images/TaiBIF_small.jpg</resourceLogoUrl>
-          <dc:replaces>1ec61203-14fa-4fbd-8ee5-a4a80257b45a/v1.6.xml</dc:replaces>
+          <dc:replaces>https://ipt.taibif.tw/resource?id=dwca-taibnet-all/v1.6.xml</dc:replaces>
       </gbif>
     </metadata>
   </additionalMetadata>
