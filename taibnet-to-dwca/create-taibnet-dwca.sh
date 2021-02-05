@@ -7,19 +7,25 @@
 # by Chihjen Ko
 
 CURRENT_DIR=$(pwd)
-PACKAGES=("dwca-taibnet-all")
+HEAD="dwca-taibnet-"
+PACKAGES=("all" "iucn")
 
 mysql --defaults-extra-file=my-extra.cnf < taibnet-clean-line-breaks.sql
 
 for P in ${PACKAGES[@]}; do
-  mkdir $P
-  mysql --defaults-extra-file=my-extra.cnf < $P-taxon.sql > $CURRENT_DIR/$P/taxon.txt
-  mysql --defaults-extra-file=my-extra.cnf < $P-description.sql > $CURRENT_DIR/$P/description.txt
-  mysql --defaults-extra-file=my-extra.cnf < $P-vernacularName.sql > $CURRENT_DIR/$P/vernacularName.txt
+  FOLDER=$HEAD$P
+  mkdir $FOLDER
+  mysql --defaults-extra-file=my-extra.cnf < $P/taxon.sql > $CURRENT_DIR/$FOLDER/taxon.txt
+  mysql --defaults-extra-file=my-extra.cnf < $P/description.sql > $CURRENT_DIR/$FOLDER/description.txt
+  mysql --defaults-extra-file=my-extra.cnf < $P/vernacularName.sql > $CURRENT_DIR/$FOLDER/vernacularName.txt
+  
+  if [ $P == "iucn" ]; then
+    mysql --defaults-extra-file=my-extra.cnf < $P/distribution.sql > $CURRENT_DIR/$FOLDER/distribution.txt
+  fi
 
-  cp $P-meta.xml $P/meta.xml
-  cp $P-eml.xml $P/eml.xml
+  cp $P/meta.xml $FOLDER/meta.xml
+  cp $P/eml.xml $FOLDER/eml.xml
 
-  zip -r $P.zip $P
+  zip -r $FOLDER.zip $FOLDER
 done
 

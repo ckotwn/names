@@ -1,0 +1,121 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="99aaf1d4-6099-45a7-975e-324adc74036f/v7.3" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <alternateIdentifier>99aaf1d4-6099-45a7-975e-324adc74036f</alternateIdentifier>
+  <alternateIdentifier>https://ipt.taibif.tw/resource?r=taibnet_iucn</alternateIdentifier>
+  <title xml:lang="eng">Taiwanese IUCN species list</title>
+      <creator>
+    <individualName>
+        <givenName>Sz-Yi</givenName>
+      <surName>Tsai</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Database administrator</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <phone>+886 2 27872220 28</phone>
+    <electronicMailAddress>auszyi@gmail.com</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Sz-Yi</givenName>
+      <surName>Tsai</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Database Administrator</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <electronicMailAddress>auszyi@gmail.com</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </metadataProvider>
+  <pubDate>
+      2020-12-02
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>The Red List of Threatened Species, published by International Union for Conservation of Nature (IUCN), lists the conservation status of a representative selection of plant and animal species according to the level of threat to their survival. A species may have a limited distribution or be found only in a small area in a country. From the point of view of biodiversity, however, the extinction of any species can prompt a global impact. Therefore, the related information of an endangered species should be recognized and its conservation effort be executed.
+
+IUCN estimates that there are 20,000 endangered species. The catalogue of life, Taiwan (TaiCoL) lists 314 species in vulnerable (VU) or higher levels. The scientific name (including author and year), synonyms, assessment level, and other information of these species are also included in the database. Taiwan, even the whole world, needs to actively promote the conservation work of these species. Through Taiwan Biodiversity Information Facility (TaiBIF), the information of Taiwan’s endangered species can be shared and exchanged with other GBIF participants. Users can use keywords to link to other websites with relevant information. All these efforts are to draw the world&apos;s attention to the conservation issue of endangered animals and plants.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Checklist</keyword>
+            <keyword>IUCN</keyword>
+            <keyword>Taiwan</keyword>
+            <keyword>TaiCoL</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Inventoryregional</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">http://taibnet.sinica.edu.tw/eng/taibnet_endanger_iucn.php?fr=y</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Taiwan island and adjacent islets.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>118.76</westBoundingCoordinate>
+          <eastBoundingCoordinate>123.03</eastBoundingCoordinate>
+          <northBoundingCoordinate>26.07</northBoundingCoordinate>
+          <southBoundingCoordinate>21.42</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Kuo-Fang</givenName>
+      <surName>Chung</surName>
+    </individualName>
+    <organizationName>Biodiversity Research Center, Academia Sinica</organizationName>
+    <positionName>Associate Research Fellow</positionName>
+    <address>
+        <deliveryPoint>128 Sec 2, Academia Rd., Nangang Dist.</deliveryPoint>
+        <city>Taipei</city>
+        <administrativeArea>TAIWAN</administrativeArea>
+        <postalCode>115</postalCode>
+        <country>TW</country>
+    </address>
+    <electronicMailAddress>bochung@sinica.edu.tw</electronicMailAddress>
+    <onlineUrl>http://taibnet.sinica.edu.tw</onlineUrl>
+      </contact>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2011-08-11T03:10:33.467+08:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+          <resourceLogoUrl>http://taibif.tw/images/TaiBIF_small.jpg</resourceLogoUrl>
+          <dc:replaces>99aaf1d4-6099-45a7-975e-324adc74036f/v7.3.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
